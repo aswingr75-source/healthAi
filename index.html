@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Health Assistant - Premium Smart Healthcare Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="particle-container" class="particle-container"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <i class="fa-solid fa-heart-pulse logo-icon"></i>
+                <span>AI Health <span class="accent-text">Assistant</span></span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#tools" class="nav-link">Tools</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge fade-in">
+                    <i class="fa-solid fa-microchip-ai"></i> Next-Gen Clinical Intelligence
+                </div>
+                <h1 class="hero-title fade-in">AI Health <span class="glow-text">Assistant</span></h1>
+                <p class="hero-subtitle slide-up">Your Smart Healthcare Companion Powered by Artificial Intelligence. Monitor benchmarks, review assets, and interface instantly with clinical algorithms.</p>
+                <div class="hero-buttons slide-up">
+                    <a href="#tools" class="btn btn-primary btn-glow">Get Started</a>
+                    <a href="#features" class="btn btn-secondary">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="glass-sphere"></div>
+                <div class="pulse-ring"></div>
+                <img src="assets/health.png" alt="AI Medical Infrastructure Illustration" class="hero-img-fallback" onerror="this.style.display='none';">
+                <div class="floating-icon fi-1"><i class="fa-solid fa-dna"></i></div>
+                <div class="floating-icon fi-2"><i class="fa-solid fa-stethoscope"></i></div>
+                <div class="floating-icon fi-3"><i class="fa-solid fa-capsules"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section" id="stats">
+        <div class="stats-container">
+            <div class="stat-card glass-card" data-target="1000">
+                <div class="stat-icon"><i class="fa-solid fa-brain-circuit"></i></div>
+                <h3 class="stat-number">0+</h3>
+                <p class="stat-label">Health Analyses</p>
+            </div>
+            <div class="stat-card glass-card" data-target="500">
+                <div class="stat-icon"><i class="fa-solid fa-folder-medical"></i></div>
+                <h3 class="stat-number">0+</h3>
+                <p class="stat-label">Reports Stored</p>
+            </div>
+            <div class="stat-card glass-card" data-target="95">
+                <div class="stat-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <h3 class="stat-number">0%</h3>
+                <p class="stat-label">Accuracy Rate</p>
+            </div>
+            <div class="stat-card glass-card" data-target="24">
+                <div class="stat-icon"><i class="fa-solid fa-headset"></i></div>
+                <h3 class="stat-number">0/7</h3>
+                <p class="stat-label">AI Support</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <div class="section-header">
+            <h2 class="section-title">Core Ecosystem Features</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">A decentralized approach to personalized diagnostics, health records tracking, and active triage tools.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card glass-card">
+                <div class="feature-img-wrap">
+                    <img src="assets/symptom.png" alt="Symptom Analyzer" class="feature-img" onerror="this.src='https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=300&q=80'">
+                </div>
+                <h3 class="feature-name">Symptom Analyzer</h3>
+                <p class="feature-desc">Analyze symptoms and receive dynamic, AI-generated health risks and targeted advisory insights.</p>
+            </div>
+            <div class="feature-card glass-card">
+                <div class="feature-img-wrap">
+                    <img src="assets/vault.png" alt="Medical Report Vault" class="feature-img" onerror="this.src='https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=300&q=80'">
+                </div>
+                <h3 class="feature-name">Medical Report Vault</h3>
+                <p class="feature-desc">Upload, parse, track and locally secure medical history parameters through non-custodial sandbox variables.</p>
+            </div>
+            <div class="feature-card glass-card">
+                <div class="feature-img-wrap">
+                    <img src="assets/medicine.png" alt="Medicine Information" class="feature-img" onerror="this.src='https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=300&q=80'">
+                </div>
+                <h3 class="feature-name">Medicine Information</h3>
+                <p class="feature-desc">Lookup chemical interactions, critical side-effects guidelines, and proper contextual clinical dosage limits.</p>
+            </div>
+            <div class="feature-card glass-card">
+                <div class="feature-img-wrap">
+                    <img src="assets/bmi.png" alt="BMI Calculator" class="feature-img" onerror="this.src='https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=300&q=80'">
+                </div>
+                <h3 class="feature-name">BMI Calculator</h3>
+                <p class="feature-desc">Assess critical physical state indexes using adaptive age/height proportional weight computations instantly.</p>
+            </div>
+            <div class="feature-card glass-card">
+                <div class="feature-img-wrap">
+                    <img src="assets/chatbot.png" alt="AI Chat Assistant" class="feature-img" onerror="this.src='https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=300&q=80'">
+                </div>
+                <h3 class="feature-name">AI Chat Assistant</h3>
+                <p class="feature-desc">Interface with an asynchronous diagnostic agent built to parse complex questions and output precise medical knowledge.</p>
+            </div>
+            <div class="feature-card glass-card">
+                <div class="feature-img-wrap">
+                    <img src="assets/emergency.png" alt="Emergency Assistance" class="feature-img" onerror="this.src='https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=300&q=80'">
+                </div>
+                <h3 class="feature-name">Emergency Assistance</h3>
+                <p class="feature-desc">Gain immediate access to structured primary response protocol sequences and critical local infrastructure routes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools-section" id="tools">
+        <div class="section-header">
+            <h2 class="section-title">Interactive Health Modules</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Real-time modular operations completely rendered locally inside your web browser interface.</p>
+        </div>
+
+        <div class="tools-wrapper">
+            <div class="tool-box glass-card" id="symptom-analyzer-tool">
+                <div class="tool-header">
+                    <i class="fa-solid fa-stethoscope tool-icon text-accent"></i>
+                    <h3>Symptom Analyzer Engine</h3>
+                </div>
+                <p class="tool-meta">Select observed criteria to execute a systemic algorithmic analysis.</p>
+                <div class="symptom-selector">
+                    <div class="symptom-chip" data-symptom="Fever">Fever</div>
+                    <div class="symptom-chip" data-symptom="Headache">Headache</div>
+                    <div class="symptom-chip" data-symptom="Cough">Cough</div>
+                    <div class="symptom-chip" data-symptom="Fatigue">Fatigue</div>
+                    <div class="symptom-chip" data-symptom="Sore Throat">Sore Throat</div>
+                    <div class="symptom-chip" data-symptom="Body Pain">Body Pain</div>
+                </div>
+                <button type="button" class="btn btn-primary w-100 mt-3" id="btn-analyze-symptoms">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Analyze Symptoms
+                </button>
+                <div class="analysis-output result-container hidden" id="symptom-output">
+                    </div>
+            </div>
+
+            <div class="tool-box glass-card" id="report-vault-tool">
+                <div class="tool-header">
+                    <i class="fa-solid fa-folder-closed tool-icon text-success"></i>
+                    <h3>Medical Report Vault</h3>
+                </div>
+                <p class="tool-meta">Save local medical logs securely. Synchronized via application LocalStorage state vectors.</p>
+                <form id="vault-form" class="tool-form">
+                    <div class="input-group">
+                        <label for="report-name">Record/Report Title</label>
+                        <input type="text" id="report-name" placeholder="e.g., Annual Metabolic Panel" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="report-date">Diagnostic Date</label>
+                        <input type="date" id="report-date" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="report-details">Clinical Summary Notes</label>
+                        <textarea id="report-details" rows="2" placeholder="Input analytical values or doctor instructions..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">
+                        <i class="fa-solid fa-cloud-arrow-up"></i> Encrypt & Save Record
+                    </button>
+                </form>
+                <div class="vault-list-container">
+                    <h4>Stored Vault Metrics</h4>
+                    <div id="vault-records" class="vault-records">
+                        <p class="empty-state">No medical data parameters archived in current LocalStorage instance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tool-box glass-card" id="medicine-search-tool">
+                <div class="tool-header">
+                    <i class="fa-solid fa-prescription-bottle-medical tool-icon text-warning"></i>
+                    <h3>Clinical Pharmaceutical Database</h3>
+                </div>
+                <p class="tool-meta">Query target formulations to discover indications, standard limits, and warnings.</p>
+                <div class="search-box-wrap">
+                    <input type="text" id="med-search-input" placeholder="Search (Paracetamol, Ibuprofen, Cetirizine, Amoxicillin)...">
+                    <i class="fa-solid fa-magnifying-glass search-inner-icon"></i>
+                </div>
+                <div id="medicine-results" class="medicine-results-area mt-3">
+                    </div>
+            </div>
+
+            <div class="tool-box glass-card" id="bmi-calculator-tool">
+                <div class="tool-header">
+                    <i class="fa-solid fa-calculator tool-icon text-accent"></i>
+                    <h3>Physiological Anthropometry (BMI)</h3>
+                </div>
+                <form id="bmi-form" class="tool-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="bmi-height">Height (cm)</label>
+                            <input type="number" id="bmi-height" min="100" max="250" placeholder="175" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="bmi-weight">Weight (kg)</label>
+                            <input type="number" id="bmi-weight" min="30" max="300" placeholder="70" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="bmi-age">Patient Age</label>
+                        <input type="number" id="bmi-age" min="2" max="120" placeholder="26" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Compute Index Metrics</button>
+                </form>
+                <div id="bmi-result-card" class="result-container hidden mt-3">
+                    </div>
+            </div>
+
+            <div class="tool-box glass-card chat-box-tool" id="ai-chat-tool">
+                <div class="tool-header">
+                    <i class="fa-solid fa-robot tool-icon text-accent"></i>
+                    <h3>Neural Medical Chat Interface</h3>
+                </div>
+                <div class="chat-suggested-prompts">
+                    <button class="chat-suggest-btn">What is BMI?</button>
+                    <button class="chat-suggest-btn">What causes fever?</button>
+                    <button class="chat-suggest-btn">How much water should I drink?</button>
+                </div>
+                <div class="chat-viewport" id="chat-viewport">
+                    <div class="chat-msg system-msg">
+                        <div class="chat-bubble">Greetings. I am your local AI Clinical Assistant Node. Ask me health-related questions.</div>
+                    </div>
+                </div>
+                <div class="chat-input-row">
+                    <input type="text" id="chat-input" placeholder="Query clinical database definitions or state concerns...">
+                    <button id="btn-chat-send" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+
+            <div class="tool-box glass-card" id="emergency-tool">
+                <div class="tool-header">
+                    <i class="fa-solid fa-truck-medical tool-icon text-danger"></i>
+                    <h3>Critical Emergency Vector Protocol</h3>
+                </div>
+                <p class="tool-meta">Immediate fail-safe clinical triage and critical system routing procedures.</p>
+                <div class="emergency-grid">
+                    <div class="emergency-item red-glow">
+                        <span class="emergency-icon"><i class="fa-solid fa-phone-flip"></i></span>
+                        <div>
+                            <h5>National Emergency Line</h5>
+                            <p class="emergency-metric">Dial 911 / 112</p>
+                        </div>
+                    </div>
+                    <div class="emergency-item">
+                        <span class="emergency-icon"><i class="fa-solid fa-ambulance"></i></span>
+                        <div>
+                            <h5>Ambulance Dispatch</h5>
+                            <p class="emergency-metric">Priority Grade A Tier</p>
+                        </div>
+                    </div>
+                    <div class="emergency-item">
+                        <span class="emergency-icon"><i class="fa-solid fa-droplet"></i></span>
+                        <div>
+                            <h5>Blood Bank Gateway</h5>
+                            <p class="emergency-metric">Active Allocation Synced</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="first-aid-box">
+                    <h5><i class="fa-solid fa-kit-medical text-danger"></i> Instant Triage Action Guide</h5>
+                    <ul class="first-aid-list">
+                        <li><strong>Unresponsiveness:</strong> Check airway immediately, place structural support, execute localized cycles.</li>
+                        <li><strong>Severe Hemorrhage:</strong> Apply targeted continuous physical pressure layer, lock high altitude access.</li>
+                        <li><strong>Hyperthermia:</strong> Minimize core exposure variables, initialize constant ambient thermal shifts.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container glass-card">
+            <div class="about-content">
+                <h2 class="section-title text-left">About AI Health Assistant</h2>
+                <div class="section-divider text-left"></div>
+                <p class="about-text">
+                    <strong>AI Health Assistant</strong> is a comprehensive architectural proof-of-concept for a modern, framework-less healthcare web SaaS application. Engineered utilizing strict modern semantic markup, responsive modular variables, and client-side processing algorithms, it bridges predictive analytical UI with real-time operations entirely on the user front-end layer.
+                </p>
+                <p class="about-text">
+                    This build maps clean functional interfaces to modern layout components, demonstrating advanced state tracking, form schema optimization, text token search capabilities, and local storage state sync cycles required for elite real-world web internships and production-facing product deployments.
+                </p>
+                <div class="tech-badges">
+                    <span><i class="fa-brands fa-html5 text-orange"></i> HTML5 Semantic Engine</span>
+                    <span><i class="fa-brands fa-css3-alt text-blue"></i> CSS3 Fluid Styling</span>
+                    <span><i class="fa-brands fa-js text-yellow"></i> Vanilla EcmaScript ES6</span>
+                    <span><i class="fa-solid fa-database text-green"></i> HTML5 LocalStorage API</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Inquire Infrastructure Access</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Reach out to request custom API allocations, infrastructure extensions, or clinical audits.</p>
+        </div>
+        <div class="contact-wrapper">
+            <form id="contact-form" class="contact-form glass-card">
+                <div class="input-group">
+                    <label for="contact-name">Full Professional Name</label>
+                    <input type="text" id="contact-name" placeholder="John Doe" required>
+                </div>
+                <div class="input-group">
+                    <label for="contact-email">Corporate/Contact Email Address</label>
+                    <input type="email" id="contact-email" placeholder="johndoe@institution.edu" required>
+                </div>
+                <div class="input-group">
+                    <label for="contact-message">Inquiry Transmission Payload</label>
+                    <textarea id="contact-message" rows="5" placeholder="Specify your architectural alignment profile or collaborative request details..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-glow w-100">Transmit Safe Form Payload</button>
+                <div id="contact-feedback" class="form-feedback hidden"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <p class="footer-logo"><i class="fa-solid fa-heart-pulse text-accent"></i> AI Health Assistant</p>
+                <p class="footer-tagline">Advanced Client-Side Computational Healthcare Shell Platform.</p>
+            </div>
+            <div class="footer-author">
+                <p class="dev-by">Developed by <span class="highlight-name">Aswin GR</span></p>
+                <p class="dev-role">Computer Science Engineering Student</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank" class="footer-social-icon" aria-label="GitHub Hub Profile"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="footer-social-icon" aria-label="LinkedIn Network Profile"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AI Health Assistant. Architectural framework engineered for open open-source distribution and portfolio validation metrics.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
